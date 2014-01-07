@@ -20,9 +20,13 @@ done
 
 echo ""
 echo "****************************************"
-echo "_$module.scss"
+echo "Filename target: _$module.scss"
+echo ""
+
 
 # Output CSS
+echo "CSS:"
+echo ""
 filename="_$module.scss"
 echo ".$module{} " > $filename
 for component in ${Components[@]}
@@ -37,6 +41,8 @@ echo "****************************************"
 echo ""
 
 # Output HTML
+echo "HTML:"
+echo ""
 echo "<$node class='$module'>"
 for component in ${Components[@]}
 do
