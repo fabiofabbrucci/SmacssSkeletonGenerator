@@ -28,11 +28,12 @@ Usage
 To create the skeleton of new module you don't need anything!
 Simply type:
 `ssg`
-1. **Name** of Module
-![step1](http://fabbrucci.me/ssg/ssg.step1.png)
-2. **Components** of Module
-![step2](http://fabbrucci.me/ssg/ssg.step2.png)
-3. Get the **output**
+
+Step 1 - **Name** of Module  
+![step1](http://fabbrucci.me/ssg/ssg.step1.png)  
+Step 2 - **Components** of Module  
+![step2](http://fabbrucci.me/ssg/ssg.step2.png)  
+Step 3 - Get the **output**  
 ![step3](http://fabbrucci.me/ssg/ssg.step3.png)  
 In this step you'll find a ready to use *_nameofmodule.scss* file.
 
