@@ -20,23 +20,26 @@ done
 
 echo ""
 echo "****************************************"
-echo ""
+echo "_$module.scss"
 
-# Output HTML
-echo ".$module{} "
+# Output CSS
+filename="_$module.scss"
+echo ".$module{} " > $filename
 for component in ${Components[@]}
 do
-	echo ".$module$separator$component{} "
+	echo ".$module$separator$component{} " >> $filename
 done
+
+cat $filename
 
 echo ""
 echo "****************************************"
 echo ""
 
-# Output CSS
+# Output HTML
 echo "<$node class='$module'>"
 for component in ${Components[@]}
 do
-	echo -e "\t<$node class='$module$separator$component'></div>"
+	echo -e "\t<$node class='$module$separator$component'>$module$separator$component</div>"
 done
 echo "</$node>"
