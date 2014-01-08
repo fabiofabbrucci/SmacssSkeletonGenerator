@@ -5,13 +5,13 @@ SMACSS or BEM Skeleton Generator is a command line tool that helps you create [S
 
 FAQ
 ---
-**Why should you use this tool?**
-Because generate skeleton is a boring a task. Let the machines do the boring job.
-**Who's this tool useful to?**
-Frontend Developer who loves make CSS in a modular way.
-**Who'll not find this tool useful?**
-Creative Designer who says "I can modify a CSS file but I'm not able to create a new one."
-And astronauts too.
+**Why should you use this tool?**  
+Because generate skeleton is a boring a task. Let the machines do the boring job.  
+**Who's this tool useful to?**  
+Frontend Developer who loves make CSS in a modular way.  
+**Who'll not find this tool useful?**  
+Creative Designer who says "I can modify a CSS file but I'm not able to create a new one."  
+And astronauts too.  
 
 Installation
 ------------
