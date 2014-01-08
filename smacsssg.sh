@@ -1,13 +1,16 @@
 # SMACSS Skeleton Generator
-separator="__"
 node="div"
 
 # Module Name
 echo -n "Name of module > "
 read module
 
+# Separator
+echo -n "Separator (eg -, --, _, __) > "
+read separator
+
 # Loop Components
-echo "(type ENTER to exit loop)"
+echo "(press ENTER to exit loop)"
 Components=();
 input="init"
 while [ -n "$input" ]; do

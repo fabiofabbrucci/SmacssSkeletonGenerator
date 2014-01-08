@@ -1,7 +1,7 @@
-Smacss Skeleton Generator
-=========================
+Smacss or BEM Skeleton Generator
+================================
 
-SMACSS Skeleton Generator is a command line tool that helps you create [SMACSS](http://smacss.com/) [skeleton](http://en.wikipedia.org/wiki/Skeleton_(computer_programming)).
+SMACSS or BEM Skeleton Generator is a command line tool that helps you create [SMACSS](http://smacss.com/) or [BEM](http://bem.info/method/) skeleton.
 
 FAQ
 ---
@@ -30,11 +30,13 @@ Simply type:
 `ssg`
 
 Step 1 - **Name** of Module  
-![step1](http://fabbrucci.me/ssg/ssg.step1.png)  
+![step1](http://fabbrucci.me/ssg/step1.png)  
+Step 1 - **Separator**  
+![step1](http://fabbrucci.me/ssg/step2.png)  
 Step 2 - **Components** of Module  
-![step2](http://fabbrucci.me/ssg/ssg.step2.png)  
+![step2](http://fabbrucci.me/ssg/step3.png)  
 Step 3 - Get the **output**  
-![step3](http://fabbrucci.me/ssg/ssg.step3.png)  
+![step3](http://fabbrucci.me/ssg/step4.png)  
 In this step you'll find a ready to use *_nameofmodule.scss* file.
 
 Otherwise you can copy your Skeleton and be ready to use it.
